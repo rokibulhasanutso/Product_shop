@@ -1,0 +1,83 @@
+/* @keyframes bounce {
+  0%{
+    transform: rotate(0deg);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: rotate(360deg);
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes bounce-reverse {
+  0%{
+    transform: rotate(360deg);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: rotate(0deg);
+    animation-timing-function: ease-out;
+  }
+}
+
+
+.animate-rotate-custom:nth-child(1) {
+  animation: bounce 0.7s infinite 0.1s linear;
+}
+.animate-rotate-custom:nth-child(2) {
+  animation: bounce-reverse 0.7s infinite 0.1s linear;
+}
+.animate-rotate-custom:nth-child(3) {
+  animation: bounce 0.7s infinite 0.1s linear;
+}
+.animate-rotate-custom:nth-child(4) {
+  animation: bounce-reverse 0.7s infinite 0.1s linear;
+}
+.animate-rotate-custom:nth-child(5) {
+  animation: bounce 0.7s infinite 0.1s linear;
+}
+.animate-rotate-custom:nth-child(6) {
+  animation: bounce-reverse 0.7s infinite 0.1s linear;
+}
+.animate-rotate-custom:nth-child(7) {
+  animation: bounce 0.7s infinite 0.1s linear;
+}
+
+ */
+
+
+@keyframes bounce-custom {
+  0%, 100% {
+    transform: translateY(0);
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateY(-10px);
+    animation-timing-function: ease-out;
+  }
+}
+
+.animate-bounce-custom:nth-child(1) {
+  animation: bounce-custom 0.5s infinite 0.1s;
+}
+
+.animate-bounce-custom:nth-child(2) {
+  animation: bounce-custom 0.5s infinite 0.2s;
+}
+
+.animate-bounce-custom:nth-child(3) {
+  animation: bounce-custom 0.5s infinite 0.3s;
+}
+.animate-bounce-custom:nth-child(4) {
+  animation: bounce-custom 0.5s infinite 0.4s;
+}
+.animate-bounce-custom:nth-child(5) {
+  animation: bounce-custom 0.5s infinite 0.5s;
+}
+.animate-bounce-custom:nth-child(6) {
+  animation: bounce-custom 0.5s infinite 0.6s;
+}
+.animate-bounce-custom:nth-child(7) {
+  animation: bounce-custom 0.5s infinite 0.7s;
+}
+
